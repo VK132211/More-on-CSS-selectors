@@ -1,0 +1,12 @@
+ul li a {
+  list-style-type: none;
+  text-decoration-line: none;
+}
+
+ul > li {
+  display: inline;
+}
+
+li + li {
+  margin: 20px;
+}

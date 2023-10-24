@@ -1,0 +1,44 @@
+/* B  */
+nav a {
+  color: red;
+}
+
+nav > h2 {
+  background-color: gray;
+  color: aqua;
+}
+
+div + p {
+  background-color: red;
+}
+
+/* C */
+
+a[href] {
+  color: red;
+  text-decoration-line: none;
+}
+
+a[class="active"] {
+  color: green;
+  text-decoration-line: underline;
+}
+
+a[target="_self"] {
+  background-color: black;
+}
+
+/* D */
+
+p:last-child::after {
+  content: "...";
+}
+
+li::marker {
+  color: darkmagenta;
+}
+
+p:nth-child(even)::first-letter {
+  color: red;
+  font-size: 30px;
+}
